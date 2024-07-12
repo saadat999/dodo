@@ -178,3 +178,13 @@ button {
     border-radius: 50%;
     color: whitesmoke;
 }
+
+
+@media (max-width: 600px) {
+    .list {
+        flex-direction: column;
+        column-gap: 50px;
+        align-items: center;
+        
+    }
+}
